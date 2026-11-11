@@ -5,5 +5,9 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 /assets/*
   Cache-Control: public, max-age=86400
+/img/*
+  Cache-Control: public, max-age=604800
+/developer-portfolio/img/*
+  Cache-Control: public, max-age=604800
 /icon.png
   Cache-Control: public, max-age=604800
