@@ -1,5 +1,6 @@
 @tailwind base; @tailwind components; @tailwind utilities;
 @layer base {
+  [hidden] { display: none !important }
   html { scroll-behavior: smooth; -webkit-text-size-adjust: 100% }
   body { @apply bg-sand-300 text-ink font-cairo leading-loose antialiased overflow-x-hidden }
   :focus-visible { @apply outline outline-2 outline-offset-2 outline-gold-800 }
