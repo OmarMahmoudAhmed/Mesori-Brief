@@ -22,7 +22,9 @@
   .seg a { @apply rounded-full px-4 py-1.5 text-ink transition }
   .seg a[aria-current=page] { @apply bg-ink text-sand-100 }
   .seg a:not([aria-current=page]):hover { @apply bg-gold-400/30 }
-  .arch { border-radius: 999px 999px 28px 28px }
+  /* قوس بنسب مئوية: الـ radius بالبكسل كان بيتقلّص لما مجموعه يزيد عن عرض الصورة */
+  .arch { border-radius: 50% 50% 1.25rem 1.25rem / 38% 38% 1.25rem 1.25rem }
+  .arch-frame { background: #FDF3E3; border: 4px solid #C8922A; outline: 1px solid rgba(240,208,128,.7); outline-offset: 4px }
   .phone { @apply shrink-0 snap-center overflow-hidden rounded-[28px] border-[5px] border-ink bg-ink shadow-xl shadow-ink/25 }
   .stair { @apply flex w-full items-start justify-center rounded-t-lg pt-2 text-center text-sm font-bold text-sand-100 transition-transform duration-300 origin-bottom hover:scale-y-105 }
 }
