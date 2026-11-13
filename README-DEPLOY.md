@@ -7,14 +7,8 @@
 - جديد: `site/img/*`, `site/developer-portfolio/*`.
 - إعدادات المشروع تفضل كما هي: Output directory = `site`، بدون Build command.
 
-## 2) نسخة iPhone → `mesori.app/ios/`
-الملف ده **مش** فيه ناتج البناء، لأن البناء محتاج متغيرات Supabase الحقيقية وأنا ما أقدرش أوصلها. ابنِه بنفسك من مستودع التطبيق:
-```bash
-cd mesori-last-realise-22
-npx vite build --base=/ios/ --outDir dist-ios --emptyOutDir
-rm -f dist-ios/dashboard.html
-```
-وبعدين انسخ `dist-ios/` داخل `Mesori-Brief/site/ios/`. التفاصيل كاملة في `IOS-WEB-PARITY.md` داخل `mesori-app-ios-web.zip`.
+## 2) نسخة iPhone → `ios.mesori.app` (مشروع Pages منفصل)
+الكود في `mesori-app-ios-web.zip` وبيتركّب على مستودع `mesori-last-realise-22`. الإعدادات ومتغيرات البيئة في `IOS-WEB-PARITY.md`.
 
 ## 3) My-Portfolio → GitHub Pages (المستودع القديم)
 استبدل `index.html` بالملف الموجود في `old-portfolio-repo/`. يحوّل الزوار تلقائيًا إلى `mesori.app/developer-portfolio/`.
