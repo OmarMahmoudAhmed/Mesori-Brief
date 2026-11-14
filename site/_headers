@@ -3,11 +3,23 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# الخطوط: أسماء الملفات ثابتة ومحتواها ما بيتغيرش، فكاش سنة كاملة
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# CSS/JS: الكاش أسبوع. لما الـ CSS يتغير غيّر ?v= في index.html
 /assets/*
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=604800
+
 /img/*
   Cache-Control: public, max-age=604800
+
 /developer-portfolio/img/*
   Cache-Control: public, max-age=604800
+
 /icon.png
+  Cache-Control: public, max-age=604800
+
+/og-image.png
   Cache-Control: public, max-age=604800
