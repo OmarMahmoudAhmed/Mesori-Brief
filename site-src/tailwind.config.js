@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./site/index.html'],
+  content: ['./site/index.html', './site/en/index.html'],
   theme: { extend: {
     colors: {
       sand: { 50: '#FEFBF4', 100: '#FDF3E3', 200: '#F9E8C8', 300: '#F4E2BC', 400: '#EDD5A0' },
