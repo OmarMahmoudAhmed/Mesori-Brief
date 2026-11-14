@@ -3,7 +3,6 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
-  Strict-Transport-Security: max-age=31536000
 
 # الخطوط: أسماء الملفات ثابتة ومحتواها ما بيتغيرش، فكاش سنة كاملة
 /assets/fonts/*
@@ -24,10 +23,3 @@
 
 /og-image.png
   Cache-Control: public, max-age=604800
-
-# لغة كل نسخة من الصفحة (للزوار ولمحركات البحث)
-/
-  Content-Language: ar
-
-/en/*
-  Content-Language: en

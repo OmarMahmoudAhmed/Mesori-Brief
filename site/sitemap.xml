@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://mesori.app/</loc>
-    <lastmod>2026-11-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mesori.app/en/"/>
-  </url>
-  <url>
-    <loc>https://mesori.app/en/</loc>
-    <lastmod>2026-11-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mesori.app/en/"/>
-  </url>
-  <url>
-    <loc>https://mesori.app/developer-portfolio/</loc>
-    <lastmod>2026-11-11</lastmod>
-  </url>
-  <url>
-    <loc>https://mesori.app/privacy-policy.html</loc>
-    <lastmod>2026-10-07</lastmod>
-  </url>
-  <url>
-    <loc>https://mesori.app/terms.html</loc>
-    <lastmod>2026-10-07</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://mesori.app/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://mesori.app/"/><priority>1.0</priority></url>
+  <url><loc>https://mesori.app/en/</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://mesori.app/"/><priority>0.9</priority></url>
+  <url><loc>https://mesori.app/developer-portfolio/</loc><lastmod>2026-11-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://mesori.app/privacy-policy.html</loc><lastmod>2026-10-07</lastmod><xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/privacy-policy.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/privacy-policy.html"/><priority>0.5</priority></url>
+  <url><loc>https://mesori.app/en/privacy-policy.html</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/privacy-policy.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/privacy-policy.html"/><priority>0.5</priority></url>
+  <url><loc>https://mesori.app/terms.html</loc><lastmod>2026-10-07</lastmod><xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/terms.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/terms.html"/><priority>0.5</priority></url>
+  <url><loc>https://mesori.app/en/terms.html</loc><lastmod>2026-11-14</lastmod><xhtml:link rel="alternate" hreflang="ar" href="https://mesori.app/terms.html"/><xhtml:link rel="alternate" hreflang="en" href="https://mesori.app/en/terms.html"/><priority>0.5</priority></url>
 </urlset>
