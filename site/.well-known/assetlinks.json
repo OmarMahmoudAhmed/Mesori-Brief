@@ -1,0 +1,17 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.omarmahmoud.mesori",
+      "sha256_cert_fingerprints": [
+        "47:12:43:13:54:21:D3:F9:20:00:91:6A:82:79:17:77:12:00:9E:1F:80:2D:FF:02:E0:19:AB:88:16:DE:01:82",
+        "40:2C:0B:C2:B2:45:21:7E:3C:28:F9:62:B9:5F:5F:3D:C7:25:97:DE:D0:DA:23:35:C1:22:1E:EB:B4:E5:4B:70",
+        "FD:28:6A:F4:8C:3E:92:E0:7A:5A:6E:1C:97:71:D1:7E:04:E8:89:44:95:17:A4:1F:73:5C:1E:75:45:C8:35:6B"
+      ]
+    }
+  }
+]
