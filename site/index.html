@@ -30,6 +30,7 @@
 <meta name="twitter:image" content="https://mesori.app/og-image.png">
 <link rel="stylesheet" href="/assets/fonts.css">
 <link rel="stylesheet" href="/assets/site.css?v=5">
+<link rel="stylesheet" href="/assets/effects.css?v=2">
 <style>.hero-bg{background:linear-gradient(180deg,rgba(244,226,188,.55),rgba(244,226,188,.92) 85%,#F4E2BC),url(/img/app-bg.webp) center/cover no-repeat}</style>
 <script>try{var p=location.pathname,s=localStorage.getItem('mesori_lang')||localStorage.getItem('omar-lang');if(p==='/'&&s==='en')location.replace('/en/');if(p==='/en/'&&s==='ar')location.replace('/')}catch(e){}</script>
 <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
@@ -54,26 +55,27 @@
   </div>
 </header>
 
+<main>
 <section class="hero-bg relative isolate overflow-hidden">
-  <main id="ar" lang="ar" dir="rtl" class="wrap grid min-h-[100svh] items-center gap-8 pb-16 pt-28 md:grid-cols-2">
+  <div id="ar" lang="ar" dir="rtl" class="wrap grid min-h-[100svh] items-center gap-8 pb-16 pt-28 md:grid-cols-2">
     <div class="text-center md:text-start">
       <img class="rise mx-auto h-28 w-28 rounded-[1.6rem] shadow-xl shadow-ink/25 md:mx-0 md:h-32 md:w-32" style="--d:.05s" src="/icon.png" alt="شعار تطبيق ميسوري" width="128" height="128" fetchpriority="high">
       <h1 class="rise mt-5 leading-tight" style="--d:.15s"><span class="font-messiri text-6xl font-bold text-ink md:text-7xl">ميسوري</span><span class="mt-1 block font-cinzel text-2xl font-black tracking-[.3em] text-gold-800 md:text-3xl">MESORI</span></h1>
       <p class="rise mt-5 max-w-xl text-lg font-semibold md:text-xl" style="--d:.3s">اكتشف تاريخ مصر القديمة، وأثبت معرفتك بالأسئلة والتحديات.</p>
       <div class="rise mt-5 flex flex-wrap justify-center gap-2 md:justify-start" style="--d:.4s"><span class="chip">مجاني</span><span class="chip">للعمر 13 سنة فأكثر</span><span class="chip">متاح على Google Play</span><span class="chip">نسخة ويب لـ iPhone</span></div>
-      <div class="rise mt-7 flex flex-wrap justify-center gap-3 md:justify-start" style="--d:.5s"><a class="btn-gold" href="https://play.google.com/store/apps/details?id=com.omarmahmoud.mesori&amp;referrer=utm_source%3Dmesori_site%26utm_medium%3Dwebsite%26utm_campaign%3Dhero_ar" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3.2v17.6a.8.8 0 0 0 1.2.7l14-8.8a.8.8 0 0 0 0-1.4l-14-8.8A.8.8 0 0 0 5 3.2z"/></svg>حمّل من Google Play</a><a class="btn-gold" href="https://ios.mesori.app/" rel="noopener" id="ios-btn-ar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>جرّب على iPhone (نسخة ويب)</a><a class="btn-ghost" href="/privacy-policy">سياسة الخصوصية</a><a class="btn-ghost" href="/terms">شروط الاستخدام</a></div>
+      <div class="rise mt-7 flex flex-wrap justify-center gap-3 md:justify-start" style="--d:.5s"><a class="btn-gold glass-gold neon-cta" href="https://play.google.com/store/apps/details?id=com.omarmahmoud.mesori&amp;referrer=utm_source%3Dmesori_site%26utm_medium%3Dwebsite%26utm_campaign%3Dhero_ar" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3.2v17.6a.8.8 0 0 0 1.2.7l14-8.8a.8.8 0 0 0 0-1.4l-14-8.8A.8.8 0 0 0 5 3.2z"/></svg>حمّل من Google Play</a><a class="btn-gold glass-gold" href="https://ios.mesori.app/" rel="noopener" id="ios-btn-ar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>جرّب على iPhone (نسخة ويب)</a><a class="btn-ghost glass-ghost" href="/privacy-policy">سياسة الخصوصية</a><a class="btn-ghost glass-ghost" href="/terms">شروط الاستخدام</a></div>
     </div>
     <div class="rise mx-auto w-full max-w-[300px] md:max-w-[340px]" style="--d:.3s"><div class="arch-rim"><div class="arch-window"><img src="/img/hero-character.webp" alt="شخصية فرعونية تحمل تطبيق ميسوري" width="620" height="1102" decoding="async"></div></div></div>
-  </main>
+  </div>
 </section>
 
-<div id="ar2" lang="ar" dir="rtl">
+<div id="ar2" lang="ar" dir="rtl" data-tilt-stage>
   <section class="sec" id="ios-ar"><div class="wrap reveal"><h2 class="h2">ميسوري على iPhone</h2>
     <p class="max-w-2xl text-lg">ميسوري غير منشور على App Store، فجهّزنا نسخة ويب بنفس الأسئلة والمستويات والنقاط والمتصدرين والتحديات بين اللاعبين. ثبّتها على الشاشة الرئيسية لتعمل بملء الشاشة مثل أي تطبيق.</p>
     <ol class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      <li class="card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">1</span><p class="mt-1">افتح الرابط في Safari على الآيفون.</p></li><li class="card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">2</span><p class="mt-1">اضغط زر المشاركة في شريط Safari.</p></li><li class="card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">3</span><p class="mt-1">اختر «إضافة إلى الشاشة الرئيسية».</p></li><li class="card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">4</span><p class="mt-1">افتح ميسوري من الأيقونة الجديدة.</p></li>
+      <li class="card glass-card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">1</span><p class="mt-1">افتح الرابط في Safari على الآيفون.</p></li><li class="card glass-card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">2</span><p class="mt-1">اضغط زر المشاركة في شريط Safari.</p></li><li class="card glass-card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">3</span><p class="mt-1">اختر «إضافة إلى الشاشة الرئيسية».</p></li><li class="card glass-card" style="--lv:#C8922A"><span class="font-cinzel text-2xl font-black text-gold-800">4</span><p class="mt-1">افتح ميسوري من الأيقونة الجديدة.</p></li>
     </ol>
-    <div class="mt-6 flex flex-wrap items-center gap-3"><a class="btn-gold" href="https://ios.mesori.app/" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>افتح نسخة الويب</a><p class="text-sm">تذكيرات العودة غير متاحة حالياً على نسخة iPhone، والإعلانات غير موجودة فيها.</p></div></div></section>
+    <div class="mt-6 flex flex-wrap items-center gap-3"><a class="btn-gold glass-gold" href="https://ios.mesori.app/" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>افتح نسخة الويب</a><button type="button" class="btn-ghost glass-ghost" data-tilt-toggle hidden data-stop="أوقف تأثير الضوء المتحرك" data-denied="الحركة غير متاحة على هذا الجهاز">فعّل تأثير الضوء المتحرك</button><p class="text-sm">تذكيرات العودة غير متاحة حالياً على نسخة iPhone، والإعلانات غير موجودة فيها.</p></div></div></section>
 
   <section class="sec"><div class="wrap reveal"><h2 class="h2">ما هو ميسوري؟</h2><p class="max-w-2xl text-lg">ميسوري لعبة أسئلة تعليمية عن تاريخ مصر القديمة. تتعلّم من خلال مستويات متدرجة من السهل إلى المتقدّم، وتجمع النقاط والشارات، وتتنافس مع لاعبين آخرين على لوحة المتصدرين. المحتوى مناسب للتعلّم والمراجعة والمنافسة الودّية.</p></div></section>
 
@@ -82,18 +84,18 @@
 
   <section class="sec"><div class="wrap reveal"><h2 class="h2">المميزات</h2>
     <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-      <article class="card" style="--lv:#1B5E2E"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">مستويات متدرجة</h3>خمسة مستويات: سهل، متوسط، صعب، صعب جداً، متقدّم.</article>
-      <article class="card" style="--lv:#0D7E72"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">تحديات بين اللاعبين</h3>مباريات 1 ضد 1 ودعوات ودّية، أو التدرّب ضد لاعب آلي (بوت).</article>
-      <article class="card" style="--lv:#1A3A6B"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">نقاط وشارات</h3>اكسب النقاط والشارات وتابع تقدّمك.</article>
-      <article class="card" style="--lv:#3B1A08"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">لوحة المتصدرين</h3>شاهد ترتيبك بين اللاعبين.</article>
-      <article class="card" style="--lv:#7A5200"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">رسائل قصيرة وآمنة</h3>مع الإبلاغ والحظر وفلتر يمنع مشاركة بيانات التواصل.</article>
-      <article class="card" style="--lv:#1B5E2E"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">تذكيرات اختيارية</h3>إشعار تذكير بسيط للعودة وإكمال التعلّم.</article>
+      <article class="card glass-card" style="--lv:#1B5E2E"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">مستويات متدرجة</h3>خمسة مستويات: سهل، متوسط، صعب، صعب جداً، متقدّم.</article>
+      <article class="card glass-card" style="--lv:#0D7E72"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">تحديات بين اللاعبين</h3>مباريات 1 ضد 1 ودعوات ودّية، أو التدرّب ضد لاعب آلي (بوت).</article>
+      <article class="card glass-card" style="--lv:#1A3A6B"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">نقاط وشارات</h3>اكسب النقاط والشارات وتابع تقدّمك.</article>
+      <article class="card glass-card" style="--lv:#3B1A08"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">لوحة المتصدرين</h3>شاهد ترتيبك بين اللاعبين.</article>
+      <article class="card glass-card" style="--lv:#7A5200"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">رسائل قصيرة وآمنة</h3>مع الإبلاغ والحظر وفلتر يمنع مشاركة بيانات التواصل.</article>
+      <article class="card glass-card" style="--lv:#1B5E2E"><h3 class="mb-1 font-messiri text-xl font-bold text-gold-800">تذكيرات اختيارية</h3>إشعار تذكير بسيط للعودة وإكمال التعلّم.</article>
       </div></div></section>
 
   <section class="sec bg-sand-100/70"><div class="wrap reveal"><h2 class="h2">من السهل إلى المتقدّم</h2>
-    <ol class="flex h-48 items-end gap-2 md:h-60 md:gap-3"><li class="stair bg-lv-1" style="height:28%"><span>سهل</span></li><li class="stair bg-lv-2" style="height:46%"><span>متوسط</span></li><li class="stair bg-lv-3" style="height:64%"><span>صعب</span></li><li class="stair bg-lv-4" style="height:82%"><span>صعب جداً</span></li><li class="stair bg-lv-5" style="height:100%"><span>متقدّم</span></li></ol></div></section>
+    <ol class="glass-stage flex h-48 items-end gap-2 md:h-60 md:gap-3"><li class="stair bg-lv-1" style="height:28%"><span>سهل</span></li><li class="stair bg-lv-2" style="height:46%"><span>متوسط</span></li><li class="stair bg-lv-3" style="height:64%"><span>صعب</span></li><li class="stair bg-lv-4" style="height:82%"><span>صعب جداً</span></li><li class="stair bg-lv-5" style="height:100%"><span>متقدّم</span></li></ol></div></section>
 
-  <section class="sec bg-ink-900 text-sand-100" id="google-data-ar"><div class="wrap reveal"><h2 class="h2 !text-gold-300">تسجيل الدخول بحساب Google وبياناتك</h2>
+  <section class="sec neon-zone text-sand-100" id="google-data-ar"><div class="wrap reveal neon-panel"><span class="neon-ring" aria-hidden="true"></span><h2 class="h2 !text-gold-300 neon-title">تسجيل الدخول بحساب Google وبياناتك</h2>
     <p>يمكنك إنشاء حساب بالبريد الإلكتروني وكلمة المرور، أو بالدخول بحساب Google. عند الدخول بجوجل نحصل على <strong>بريدك الإلكتروني ومعرّف حسابك فقط</strong> لإنشاء حسابك وتسجيل دخولك. لا نصل إلى بريدك أو ملفاتك أو جهات اتصالك أو أي بيانات أخرى في حسابك.</p>
     <ul class="mt-4 list-disc space-y-2 ps-6">
       <li>لا نبيع بياناتك، ولا نستخدم بيانات حسابك في Google لأغراض إعلانية.</li><li>يلتزم استخدام ميسوري للمعلومات الواردة من Google بـ <a class="text-gold-300 underline" href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">سياسة بيانات المستخدم في خدمات Google API</a>، بما فيها متطلبات الاستخدام المحدود (Limited Use).</li><li>يمكنك حذف حسابك وبياناتك في أي وقت من داخل التطبيق: الإعدادات ← «الخصوصية وشروط الاستخدام» ← «حذف حسابي»، أو راجع <a class="text-gold-300 underline" href="/privacy-policy#delete-account">صفحة الحذف</a>.</li>
@@ -108,8 +110,9 @@
     <div><h2 class="h2">المطوّر</h2>
       <p class="max-w-xl text-lg">ميسوري من تطوير عمر محمود أحمد، معلّم تاريخ ودراسات اجتماعية ومطوّر ويب من الإسكندرية.</p>
       <p class="mt-3">البريد: <a class="font-bold text-gold-800 underline" href="mailto:omar.mahmoud.ahmed.01@gmail.com">omar.mahmoud.ahmed.01@gmail.com</a></p>
-      <a class="btn-gold mt-5" href="/developer-portfolio/">شوف صحيفة أعمال المطوّر</a></div></div></section>
+      <a class="btn-gold glass-gold mt-5" href="/developer-portfolio/">شوف صحيفة أعمال المطوّر</a></div></div></section>
 </div>
+</main>
 
 <footer class="bg-ink-900 py-8 text-center text-sm text-sand-100">
   <nav class="wrap flex flex-wrap justify-center gap-x-6 gap-y-2" aria-label="Legal">
@@ -128,5 +131,6 @@ $$('.reveal').forEach(el=>io.observe(el));
 const bar=$('#bar');addEventListener('scroll',()=>{bar.style.transform=`scaleX(${scrollY/(document.documentElement.scrollHeight-innerHeight||1)})`},{passive:true});
 })();
 </script>
+<script src="/assets/effects.js?v=2" defer></script>
 </body>
 </html>
